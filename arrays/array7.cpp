@@ -1,4 +1,4 @@
-//Bubble sorting in array by using loops.
+//Bubble sorting in array.
 #include<iostream>
 using namespace std;
 int main(){

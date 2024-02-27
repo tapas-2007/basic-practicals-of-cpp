@@ -1,4 +1,4 @@
-//Selection sorting in array by using loops.(ascending order)
+//Selection sorting in array.
 #include<iostream>
 using namespace std;
 int main(){
