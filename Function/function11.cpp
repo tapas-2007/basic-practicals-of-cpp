@@ -50,7 +50,8 @@ int main(){
     cout<<"4). Division"<<endl;
     cout<<"5). Modulo"<<endl;
     cout<<"6). Power"<<endl;
-    cout<<"7). Exit"<<endl;
+    cout<<"7). Square root"<<endl;
+    cout<<"8). Exit"<<endl;
     cout<<endl;
     cout<<"Enter the choice = ";
     cin>>ch;
@@ -143,6 +144,22 @@ int main(){
         }
     
     case 7:
+    cout<<"Enter  the value of a = ";
+    cin >> a ;
+    cout<<sqrt(a)<<endl;
+    cout<<endl;
+    cout<<"Choise y for continue or n for  exit : ";
+    cin>>x;
+        if(x=='y' || x=='Y'){
+            system("cls");
+            goto menu;
+        }
+        else{
+            system("cls");
+            return 0;
+            }
+
+    case 8:
     system("cls");
     return 0;
 
