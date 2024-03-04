@@ -167,7 +167,12 @@ int fact(int n){
 }
 
 int pattern(int i, int j){
-
+    menu:
+    cout<<"1).  Rectangle"<<endl;
+    cout<<"2).  Hollow rectangle"<<endl;
+    cout<<"3).  inverted half pyramid"<<endl;
+    cout<<"4).  half pyramid after 180degree rotation"<<endl;
+    
 }
 int main(){
     int a,b,c,ch,d,l,h,p,n,i,j;
