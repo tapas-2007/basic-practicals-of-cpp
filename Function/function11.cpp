@@ -1,5 +1,5 @@
 #include<iostream>
-#include <stdlib.h>
+#include<stdlib.h>
 #include<math.h>
 using namespace std;
 
@@ -166,14 +166,6 @@ int fact(int n){
     return fact;
 }
 
-int pattern(int i, int j){
-    menu:
-    cout<<"1).  Rectangle"<<endl;
-    cout<<"2).  Hollow rectangle"<<endl;
-    cout<<"3).  inverted half pyramid"<<endl;
-    cout<<"4).  half pyramid after 180degree rotation"<<endl;
-    
-}
 int main(){
     int a,b,c,ch,d,l,h,p,n,i,j;
     float r;
@@ -198,8 +190,7 @@ int main(){
     cout<<"17). Area of triangle"<<endl;
     cout<<"18). Find Average"<<endl;
     cout<<"19). Fint factorial of number"<<endl;
-    cout<<"20). Pattern's"<<endl;
-    cout<<"21). Exit"<<endl;
+    cout<<"20). Exit"<<endl;
     cout<<endl;
     cout<<"Enter the choice = ";
     cin>>ch;
@@ -481,22 +472,7 @@ int main(){
         return 0;
     }
     
-    
     case 20:
-    cout<<pattern(i,j)<<endl;
-    cout<<endl;
-    cout<<"Choise y for continue or n for exit :";
-    cin>>x;
-    if(x=='y'||x=='Y'){
-        system("cls");
-        goto menu;
-    }else {
-        system("cls");
-        return 0;
-    }
-    
-    
-    case 21:
     system("cls");
     return 0;
 
